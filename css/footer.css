@@ -1,0 +1,31 @@
+.c-footer {
+  margin-bottom: 16px;
+}
+
+.c-footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.c-footer__attribution {
+  text-align: center;
+  font: 500 0.875rem/1.25 var(--fnt-family);
+}
+
+.c-footer__link {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1000px) {
+  .c-footer,
+  .c-footer__content {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .c-footer__attribution {
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,26 @@
+.c-work {
+  margin-bottom: 88px;
+}
+
+.c-work__title {
+  font: var(--fnt-heading-s);
+  color: var(--clr-neutral-black);
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+@media screen and (max-width: 1000px) {
+  .c-work {
+    margin-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .c-work {
+    margin-bottom: 100px;
+  }
+  .c-work__title {
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+  }
+}

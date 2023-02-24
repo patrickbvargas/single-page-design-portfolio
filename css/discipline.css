@@ -1,0 +1,45 @@
+.c-discipline {
+  margin-bottom: 136px;
+}
+
+.c-discipline__title {
+  font: var(--fnt-heading-l);
+  color: var(--clr-neutral-black);
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.c-discipline__description {
+  font: var(--fnt-body-m);
+  color: var(--clr-neutral-medium-brown);
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1000px) {
+  .c-discipline {
+    margin-bottom: 120px;
+  }
+  .c-discipline__title {
+    font-size: 2.75rem;
+  }
+  .c-discipline__description {
+    padding: 0 60px;
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .c-discipline {
+    margin-bottom: 100px;
+  }
+  .c-discipline__title {
+    font-size: 2.25rem;
+    margin-bottom: 16px;
+  }
+  .c-discipline__description {
+    font-size: 1rem;
+    padding: 0 20px;
+    margin-bottom: 32px;
+  }
+}

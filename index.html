@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | Single-page design portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header class="c-header u-container">
+    <div class="c-logo"><img src="./assets/logo.svg" width="64" height="64" alt="Logo"></div>
+    <nav>
+      <a class="c-button c-button--dark" href="#">Free Consultation</a>
+    </nav>
+  </header>
+
+  <main class="c-main u-container">
+    <section class="c-discipline">
+      <h1 class="c-discipline__title">Design solutions made easy</h1>
+      <p class="c-discipline__description">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+      <div class="c-card">
+        <div class="c-card__item c-card__item--large">
+          <div class="c-card__image"><img src="./assets/pattern-graphic-design.svg" width="128" height="192" alt="Graphic Design Discipline"></div>
+          <h3 class="c-card__title">Graphic Design</h3>
+        </div>
+        <div class="c-card__group">
+          <div class="c-card__item">
+            <div class="c-card__image"><img src="./assets/pattern-ui-ux.svg" width="64" height="64" alt="UI/UX Discipline"></div>
+            <h3 class="c-card__title">UI/UX</h3>
+          </div>
+          <div class="c-card__item">
+            <div class="c-card__image"><img src="./assets/pattern-apps.svg" width="64" height="64" alt="Apps Discipline"></div>
+            <h3 class="c-card__title">Apps</h3>
+          </div>
+        </div>
+        <div class="c-card__item">
+          <div class="c-card__image"><img src="./assets/pattern-photography.svg" width="160" height="64" alt="Photography Discipline"></div>
+          <h3 class="c-card__title">Photography</h3>
+        </div>
+        <div class="c-card__item">
+          <div class="c-card__image"><img src="./assets/pattern-illustrations.svg" width="128" height="64" alt="Illustrations Discipline"></div>
+          <h3 class="c-card__title">Illustrations</h3>
+        </div>
+        <div class="c-card__item">
+          <div class="c-card__image"><img src="./assets/pattern-motion-graphics.svg" width="128" height="64" alt="Motion Graphics Discipline"></div>
+          <h3 class="c-card__title">Motion Graphics</h3>
+        </div>
+      </div>
+    </section>
+    <section class="c-presentation">
+      <div class="c-presentation__image">
+        <img src="./assets/image-amy.webp" width="890" height="890" alt="Amy's profile photo">
+      </div>
+      <div class="c-presentation__content">
+        <h2 class="c-presentation__title">I’m Amy, and I’d love to work on your next project</h2>
+        <p class="c-presentation__description">I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
+        <a class="c-button c-button--light" href="#">Free Consultation</a>
+      </div>
+    </section>
+    <section class="c-work">
+      <h2 class="c-work__title">My Work</h2>
+      <div class="c-slide">
+        <ul class="c-slide__content js-slide-content">
+          <li class="c-slide__item">
+            <img src="./assets/image-slide-1.jpg" width="540" height="360" alt="Work 1">
+          </li>
+          <li class="c-slide__item is-active">
+            <img src="./assets/image-slide-2.jpg" width="540" height="360" alt="Work 2">
+          </li>
+          <li class="c-slide__item">
+            <img src="./assets/image-slide-3.jpg" width="540" height="360" alt="Work 3">
+          </li>
+          <li class="c-slide__item">
+            <img src="./assets/image-slide-4.jpg" width="540" height="360" alt="Work 4">
+          </li>
+          <li class="c-slide__item">
+            <img src="./assets/image-slide-5.jpg" width="540" height="360" alt="Work 5">
+          </li>
+        </ul>
+        <div class="c-slide__control">
+          <div class="c-slide__button c-slide__button--dark js-slide-previous"><img src="./assets/icon-arrow-left.svg" width="16" height="16" alt=""></div>
+          <div class="c-slide__button c-slide__button--dark js-slide-next"><img src="./assets/icon-arrow-right.svg" width="16" height="16" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <section class="c-invitation">
+      <div class="c-invitation__content">
+        <h3 class="c-invitation__title">Book a call with me</h3>
+        <p class="c-invitation__description">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+      </div>
+      <a class="c-button c-button--light" href="#">Free Consultation</a>
+    </section>
+  </main>
+
+  <footer class="c-footer u-container">
+    <div class="c-footer__content">
+      <div class="c-logo"><img src="./assets/logo.svg" width="64" height="64" alt="Logo"></div>
+      <nav>
+        <a class="c-button c-button--dark" href="#">Free Consultation</a>
+      </nav>
+    </div>
+    <div class="c-footer__attribution">
+      Challenge by <a class="c-footer__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a class="c-footer__link" href="https://github.com/patrickbvargas" target="_blank">Patrick Vargas</a>.
+    </div>
+  </footer>
+
+</body>
+
+</html>

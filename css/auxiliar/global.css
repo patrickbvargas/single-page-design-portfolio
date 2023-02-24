@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+:root {
+  --clr-primary-galatic-blue: #755cde;
+  --clr-primary-summer-yellow: #f6a560;
+  --clr-primary-pink: #f39e9e;
+  --clr-primary-light-red: #eb7565;
+  --clr-primary-cyan: #61c4b7;
+  --clr-primary-dark-purple: #552049;
+  --clr-neutral-black: #030303;
+  --clr-neutral-white: #ffffff;
+  --clr-neutral-medium-brown: #7a746e;
+  --clr-neutral-light-cream: #fff7f0;
+
+  --fnt-family: "Plus Jakarta Sans", sans-serif;
+  --fnt-heading-l: 700 3.5rem/1.25 var(--fnt-family);
+  --fnt-heading-m: 700 2.5rem/1.25 var(--fnt-family);
+  --fnt-heading-s: 700 2rem/1.25 var(--fnt-family);
+  --fnt-body-m: 500 1.125rem/1.55 var(--fnt-family);
+}
