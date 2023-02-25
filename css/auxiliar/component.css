@@ -189,13 +189,10 @@
   background: var(--clr-primary-summer-yellow);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .c-slide__content {
     margin-bottom: 32px;
   }
-}
-
-@media screen and (max-width: 600px) {
   .c-slide__item {
     flex: 1 0 270px;
   }
