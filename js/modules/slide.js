@@ -34,14 +34,16 @@ export default class Slide {
 
   isPreviousAction(event) {
     const isPreviousBtnClick =
-      event.type === "click" && this.controls.previous.contains(event.target);
+      (event.type === "click" || event.type === "touchend") &&
+      this.controls.previous.contains(event.target);
     const isPreviousKeyUp = event.type === "keyup" && event.key === "ArrowLeft";
     return isPreviousBtnClick || isPreviousKeyUp;
   }
 
   isNextAction(event) {
     const isNextBtnClick =
-      event.type === "click" && this.controls.next.contains(event.target);
+      (event.type === "click" || event.type === "touchend") &&
+      this.controls.next.contains(event.target);
     const isNextKeyUp = event.type === "keyup" && event.key === "ArrowRight";
     return isNextBtnClick || isNextKeyUp;
   }
