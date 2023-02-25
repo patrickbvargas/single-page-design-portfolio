@@ -46,8 +46,6 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
 Use BEM + Namespaces methodology on classname
 
 ```html
@@ -89,5 +87,5 @@ I will focus my studies on the following topics
 
 ## Author
 
-- Website - [Patrick Vargas](https://github.com/patrickbvargas)
+- GitHub - [Patrick Vargas](https://github.com/patrickbvargas)
 - Frontend Mentor - [@patrickbvargas](https://www.frontendmentor.io/profile/patrickbvargas)
