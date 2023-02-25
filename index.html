@@ -16,47 +16,47 @@
 
 <body>
 
-  <header class="c-header u-container">
+  <header class="c-header">
     <div class="c-logo"><img src="./assets/logo.svg" width="64" height="64" alt="Logo"></div>
     <nav>
       <a class="c-button c-button--dark" href="#">Free Consultation</a>
     </nav>
   </header>
 
-  <main class="c-main u-container">
-    <section class="c-discipline">
+  <main class="c-main">
+    <section class="c-discipline" aria-label="Disciplines">
       <h1 class="c-discipline__title">Design solutions made easy</h1>
       <p class="c-discipline__description">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
       <div class="c-card">
-        <div class="c-card__item c-card__item--large">
+        <div class="c-card__item c-card__item--blue c-card__item--large">
           <div class="c-card__image"><img src="./assets/pattern-graphic-design.svg" width="128" height="192" alt="Graphic Design Discipline"></div>
           <h3 class="c-card__title">Graphic Design</h3>
         </div>
         <div class="c-card__group">
-          <div class="c-card__item">
+          <div class="c-card__item c-card__item--yellow">
             <div class="c-card__image"><img src="./assets/pattern-ui-ux.svg" width="64" height="64" alt="UI/UX Discipline"></div>
             <h3 class="c-card__title">UI/UX</h3>
           </div>
-          <div class="c-card__item">
+          <div class="c-card__item c-card__item--pink">
             <div class="c-card__image"><img src="./assets/pattern-apps.svg" width="64" height="64" alt="Apps Discipline"></div>
             <h3 class="c-card__title">Apps</h3>
           </div>
         </div>
-        <div class="c-card__item">
+        <div class="c-card__item c-card__item--cyan">
           <div class="c-card__image"><img src="./assets/pattern-photography.svg" width="160" height="64" alt="Photography Discipline"></div>
           <h3 class="c-card__title">Photography</h3>
         </div>
-        <div class="c-card__item">
+        <div class="c-card__item c-card__item--red">
           <div class="c-card__image"><img src="./assets/pattern-illustrations.svg" width="128" height="64" alt="Illustrations Discipline"></div>
           <h3 class="c-card__title">Illustrations</h3>
         </div>
-        <div class="c-card__item">
+        <div class="c-card__item c-card__item--purple">
           <div class="c-card__image"><img src="./assets/pattern-motion-graphics.svg" width="128" height="64" alt="Motion Graphics Discipline"></div>
           <h3 class="c-card__title">Motion Graphics</h3>
         </div>
       </div>
     </section>
-    <section class="c-presentation">
+    <section class="c-presentation" aria-label="Presentation">
       <div class="c-presentation__image">
         <img src="./assets/image-amy.webp" width="890" height="890" alt="Amy's profile photo">
       </div>
@@ -66,23 +66,23 @@
         <a class="c-button c-button--light" href="#">Free Consultation</a>
       </div>
     </section>
-    <section class="c-work">
-      <h2 class="c-work__title">My Work</h2>
-      <div class="c-slide">
-        <ul class="c-slide__content js-slide-content">
-          <li class="c-slide__item">
+    <section class="c-work" aria-labelledby="work_title">
+      <h2 id="work_title" class="c-work__title">My Work</h2>
+      <div class="c-slide js-slide">
+        <ul class="c-slide__content js-slide-wrapper">
+          <li class="c-slide__item  js-slide-item">
             <img src="./assets/image-slide-1.jpg" width="540" height="360" alt="Work 1">
           </li>
-          <li class="c-slide__item is-active">
+          <li class="c-slide__item js-slide-item">
             <img src="./assets/image-slide-2.jpg" width="540" height="360" alt="Work 2">
           </li>
-          <li class="c-slide__item">
+          <li class="c-slide__item js-slide-item is-active">
             <img src="./assets/image-slide-3.jpg" width="540" height="360" alt="Work 3">
           </li>
-          <li class="c-slide__item">
+          <li class="c-slide__item js-slide-item">
             <img src="./assets/image-slide-4.jpg" width="540" height="360" alt="Work 4">
           </li>
-          <li class="c-slide__item">
+          <li class="c-slide__item js-slide-item">
             <img src="./assets/image-slide-5.jpg" width="540" height="360" alt="Work 5">
           </li>
         </ul>
@@ -92,16 +92,18 @@
         </div>
       </div>
     </section>
-    <section class="c-invitation">
-      <div class="c-invitation__content">
-        <h3 class="c-invitation__title">Book a call with me</h3>
-        <p class="c-invitation__description">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+    <section class="c-invitation" aria-label="Invitation">
+      <div class="c-invitation__wrapper">
+        <div class="c-invitation__content">
+          <h3 class="c-invitation__title">Book a call with me</h3>
+          <p class="c-invitation__description">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+        </div>
+        <a class="c-button c-button--light" href="#">Free Consultation</a>
       </div>
-      <a class="c-button c-button--light" href="#">Free Consultation</a>
     </section>
   </main>
 
-  <footer class="c-footer u-container">
+  <footer class="c-footer">
     <div class="c-footer__content">
       <div class="c-logo"><img src="./assets/logo.svg" width="64" height="64" alt="Logo"></div>
       <nav>
@@ -114,6 +116,7 @@
     </div>
   </footer>
 
+  <script type="module" src="./js/script.js"></script>
 </body>
 
 </html>

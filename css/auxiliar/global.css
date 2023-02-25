@@ -37,4 +37,10 @@ img {
   --fnt-heading-m: 700 2.5rem/1.25 var(--fnt-family);
   --fnt-heading-s: 700 2rem/1.25 var(--fnt-family);
   --fnt-body-m: 500 1.125rem/1.55 var(--fnt-family);
+
+  --container-width: 1440px;
+  --container-padding-large: 0 165px;
+  --container-padding-medium: 0 40px;
+  --container-padding-small: 0 16px;
+  --container-margin: 0 auto;
 }

@@ -1,4 +1,7 @@
 .c-presentation {
+  max-width: var(--container-width);
+  padding: var(--container-padding-large);
+  margin: var(--container-margin);
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 125px;
@@ -28,6 +31,7 @@
 
 @media screen and (max-width: 1000px) {
   .c-presentation {
+    padding: var(--container-padding-medium);
     gap: 70px;
     margin-bottom: 120px;
   }
@@ -48,6 +52,7 @@
 
 @media screen and (max-width: 600px) {
   .c-presentation {
+    padding: var(--container-padding-small);
     grid-template-columns: 1fr;
     gap: 40px;
     justify-items: center;

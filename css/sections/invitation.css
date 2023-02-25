@@ -1,11 +1,17 @@
 .c-invitation {
+  max-width: var(--container-width);
+  padding: var(--container-padding-large);
+  margin: var(--container-margin);
+  margin-bottom: 56px;
+}
+
+.c-invitation__wrapper {
+  padding: 80px 95px 80px 65px;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
   background: var(--clr-neutral-black);
-  padding: 80px 95px 80px 65px;
   border-radius: 10px;
-  margin-bottom: 56px;
 }
 
 .c-invitation__content {
@@ -25,6 +31,10 @@
 
 @media screen and (max-width: 1000px) {
   .c-invitation {
+    padding: var(--container-padding-medium);
+    margin-bottom: 40px;
+  }
+  .c-invitation__wrapper {
     grid-template-columns: 1fr;
     justify-items: center;
     padding: 56px 75px 64px 75px;
@@ -46,8 +56,11 @@
 
 @media screen and (max-width: 600px) {
   .c-invitation {
-    padding: 48px 24px;
+    padding: var(--container-padding-small);
     margin-bottom: 40px;
+  }
+  .c-invitation__wrapper {
+    padding: 48px 24px;
   }
   .c-invitation__title {
     font-size: 1.625rem;

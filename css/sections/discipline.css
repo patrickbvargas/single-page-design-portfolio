@@ -1,4 +1,7 @@
 .c-discipline {
+  max-width: var(--container-width);
+  padding: var(--container-padding-large);
+  margin: var(--container-margin);
   margin-bottom: 136px;
 }
 
@@ -18,6 +21,7 @@
 
 @media screen and (max-width: 1000px) {
   .c-discipline {
+    padding: var(--container-padding-medium);
     margin-bottom: 120px;
   }
   .c-discipline__title {
@@ -31,6 +35,7 @@
 
 @media screen and (max-width: 600px) {
   .c-discipline {
+    padding: var(--container-padding-small);
     margin-bottom: 100px;
   }
   .c-discipline__title {

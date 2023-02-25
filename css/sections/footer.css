@@ -1,4 +1,7 @@
 .c-footer {
+  max-width: var(--container-width);
+  padding: var(--container-padding-large);
+  margin: var(--container-margin);
   margin-bottom: 16px;
 }
 
@@ -18,6 +21,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .c-footer {
+    padding: var(--container-padding-medium);
+  }
   .c-footer,
   .c-footer__content {
     margin-bottom: 32px;
@@ -25,6 +31,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .c-footer {
+    padding: var(--container-padding-small);
+  }
   .c-footer__attribution {
     font-size: 0.75rem;
   }
