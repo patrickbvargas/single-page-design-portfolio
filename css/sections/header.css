@@ -1,0 +1,23 @@
+.c-header {
+  max-width: var(--container-width);
+  padding: var(--container-padding-large);
+  margin: var(--container-margin);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+  margin-bottom: 64px;
+}
+
+@media screen and (max-width: 1000px) {
+  .c-header {
+    padding: var(--container-padding-medium);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .c-header {
+    padding: var(--container-padding-small);
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+}

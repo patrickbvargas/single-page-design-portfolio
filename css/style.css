@@ -1,11 +1,9 @@
 @import "./auxiliar/global.css";
-
-@import "./auxiliar/utility.css";
 @import "./auxiliar/component.css";
 
-@import "./header.css";
-@import "./discipline.css";
-@import "./presentation.css";
-@import "./work.css";
-@import "./invitation.css";
-@import "./footer.css";
+@import "./sections/header.css";
+@import "./sections/discipline.css";
+@import "./sections/presentation.css";
+@import "./sections/work.css";
+@import "./sections/invitation.css";
+@import "./sections/footer.css";
